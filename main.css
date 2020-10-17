@@ -1,0 +1,29 @@
+.container
+{
+    overflow: hidden;
+    margin: 0em auto;
+    width: 1400px;
+}
+
+.topic h2
+{
+    position: absolute;
+    top: 0em;
+    left: 4em;
+    font-size: 5em;
+    margin-bottom: 0;
+    color: rgb(0, 0, 0);
+    font-weight: lighter;
+    font-family: cursive;
+}
+
+.vis{
+    overflow: hidden;
+    margin: 0em auto;
+    width: 1400px;
+}
+
+.vis script{
+    margin-top: 5em;
+    margin-left: 4cm;
+}
