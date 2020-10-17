@@ -1,3 +1,6 @@
+body{
+    background-color: lavenderblush;
+}
 .container
 {
     overflow: hidden;
@@ -9,7 +12,7 @@
 {
     position: absolute;
     top: 0em;
-    left: 4em;
+    left: 350px;
     font-size: 5em;
     margin-bottom: 0;
     color: rgb(0, 0, 0);
@@ -19,17 +22,8 @@
 
 #vis{
     overflow: hidden;
-    margin: 0em auto;
     width: 1400px;
+    margin-top: 13em;
+    margin-left: 16em;
 }
 
-#vis #map1{
-    margin-top: 5em;
-    margin-left: 4cm;
-}
-
-
-#vis script{
-    margin-top: 5em;
-    margin-left: 4cm;
-}
