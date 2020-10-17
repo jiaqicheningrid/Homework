@@ -17,13 +17,13 @@
     font-family: cursive;
 }
 
-.vis{
+#vis{
     overflow: hidden;
     margin: 0em auto;
     width: 1400px;
 }
 
-.vis script{
+#vis script{
     margin-top: 5em;
     margin-left: 4cm;
 }
