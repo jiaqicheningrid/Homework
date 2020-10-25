@@ -168,7 +168,7 @@
         "fontStyle": "italic"
       },
       "encoding": {
-        "text": {"field": "Country Name", "type": "nominal"},
+        "text": {"field": "Population", "type": "quantitative"},
         "color": {"value": "black"},
         "opacity": {
           "condition": {
