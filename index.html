@@ -11,25 +11,27 @@
 <body>
   <div id="header" class="container">
     <section class="topic">
-      <h2>This is the first visualisation</h2>
-      <div id="spec1"></div>
-      <h2>This is the second visualisation</h2>
-      <div id="spec2"></div>
+      <h2>The World Economy</h2>
     </section>
+    <div id ="vis">
+          <h2>This is the first visualisation</h2>
+          <div id="spec1"></div>
+          <h2>This is the second visualisation</h2>
+          <div id="spec2"></div>
+    </div>
   </div>
   <div id="vis">
     <script type="text/javascript">
     var spec1 = "https://jiaqicheningrid.github.io/Homework/visualization.vl(2).json";
-    vegaEmbed('#vis', spec1).then(function(result) { 
+    vegaEmbed('#spec1', spec1).then(function(result) { 
     }).catch(console.error);
     
     
     var spec2 = "https://jiaqicheningrid.github.io/Homework/visualization.vl(2)copy.json";
-    vegaEmbed('#vis', spec2).then(function(result) { 
+    vegaEmbed('#spec2', spec2).then(function(result) { 
     }).catch(console.error);
 
     </script>
-    
   </div>
 </body>
 </html>
