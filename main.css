@@ -4,16 +4,16 @@ body{
 .container
 {
     overflow: hidden;
+    widows: 1400px;
     margin: 0em auto;
 }
 
 .topic h2
 {
     position: absolute;
-    top: 0em;
-    left: 350px;
+    text-align: center;
+    margin-left: 4em;
     font-size: 5em;
-    margin-bottom: 0;
     color: rgb(0, 0, 0);
     font-weight: lighter;
     font-family: cursive;
@@ -21,7 +21,11 @@ body{
 
 #vis{
     position: relative;
-    margin:auto;
     text-align:center;
 }
 
+#vis #v1 h1{
+    position: relative;
+    margin-top: 8em;
+
+}
