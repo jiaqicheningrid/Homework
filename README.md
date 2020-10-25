@@ -1,2 +1,2 @@
 # homework9
-link: https://jiaqicheningrid.github.io/homework9/
+link: https://jiaqicheningrid.github.io/Homework/
