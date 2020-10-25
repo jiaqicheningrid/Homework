@@ -14,8 +14,10 @@
       <h2>The World Economy</h2>
     </section>
     <div id ="vis">
+      <div id="v1">
           <h1>This is the first visualisation</h1>
           <div id="spec1"></div>
+      </div>
           <h1>This is the second visualisation</h1>
           <div id="spec2"></div>
     </div>
@@ -24,7 +26,6 @@
     var spec1 = "https://jiaqicheningrid.github.io/Homework/visualizationMap.vl.json";
     vegaEmbed('#spec1', spec1).then(function(result) { 
     }).catch(console.error);
-    
     
     var spec2 = "https://jiaqicheningrid.github.io/Homework/visualizationBubblePolt.vl.json";
     vegaEmbed('#spec2', spec2).then(function(result) { 
