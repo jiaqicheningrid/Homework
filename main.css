@@ -20,6 +20,7 @@ body{
 }
 
 #vis{
+    position: relative;
     margin:auto;
     text-align:center;
 }
