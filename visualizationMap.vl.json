@@ -9,7 +9,7 @@
   "layer": [
     {
       "data": {
-        "url": "https://raw.githubusercontent.com/jiaqicheningrid/homework9/main/ne_110m_admin_0_countries.json",
+        "url": "https://raw.githubusercontent.com/jiaqicheningrid/Homework/main/ne_110m_admin_0_countries.json",
         "format": {"type": "topojson", "feature": "ne_110m_admin_0_countries"}
       },
       "transform": [
@@ -17,7 +17,7 @@
           "lookup": "properties.NAME",
           "from": {
             "data": {
-              "url": "https://raw.githubusercontent.com/jiaqicheningrid/homework9/main/per_gdp.csv"
+              "url": "https://raw.githubusercontent.com/jiaqicheningrid/Homework/main/per_gdp.csv"
             },
             "key": "Country Name",
             "fields": ["2019"]
@@ -45,7 +45,7 @@
     },
     {
       "data": {
-        "url": "https://raw.githubusercontent.com/jiaqicheningrid/homework9/main/ne_110m_admin_0_countries.json",
+        "url": "https://raw.githubusercontent.com/jiaqicheningrid/Homework/main/ne_110m_admin_0_countries.json",
         "format": {"type": "topojson", "feature": "ne_110m_admin_0_countries"}
       },
       "transform": [
@@ -53,7 +53,7 @@
           "lookup": "properties.NAME",
           "from": {
             "data": {
-              "url": "https://raw.githubusercontent.com/jiaqicheningrid/homework9/main/location10.csv"
+              "url": "https://raw.githubusercontent.com/jiaqicheningrid/Homework/main/location10.csv"
             },
             "key": "Country Name",
             "fields": ["Longitude", "Latitude"]
